@@ -37,7 +37,7 @@ src/
 ├── data/           # project data source
 ├── pages/          # application pages
 ├── assets/         # images & static files
-└── main.jsx
+└── App.jsx
 ```
 
 ---
