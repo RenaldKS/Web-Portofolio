@@ -1,11 +1,6 @@
-import {
-  UserCircleIcon,
-  CodeBracketIcon,
-  CommandLineIcon,
-} from "@heroicons/react/24/solid";
-import githubicn from "../src/img/25231.png";
-import linkedicn from "../src/img/linked.png";
-import profileimg from "../src/img/ME12.jpeg";
+import githubicn from "../assets/img/25231.png";
+import linkedicn from "../assets/img/linked.png";
+import profileimg from "../assets/img/ME12.jpeg";
 
 const Front_Body = () => {
   return (

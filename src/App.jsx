@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "../component/Header";
-import Front_Body from "../pages/Front_Body";
-import Footer from "../component/Footer";
-import Portofolio from "../pages/Portofolio";
-import TaskManager from "../pages/taskManager";
-import PortoDetails from "../pages/PortoDetails";
+import Header from "../src/component/Header";
+import Front_Body from "../src/pages/Front_Body";
+import Footer from "../src/component/Footer";
+import Portofolio from "../src/pages/Portofolio";
+import TaskManager from "../src/pages/taskManager";
+import PortoDetails from "../src/pages/PortoDetails";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import projects from "../src/data/project";
+import projects from "../data/project";
 import PhotoGallery from "../component/ProjectGallery";
 
 const PortoDetails = () => {
