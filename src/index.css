@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Bikin variabel animasi baru */
+  --animate-fade-in: fade-in 1.5s ease-out;
+
+  /* Definisi keyframes-nya */
+  @keyframes fade-in {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
