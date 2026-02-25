@@ -47,7 +47,7 @@ src/
 ### Clone repository
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/RenaldKS/Web-Portofolio.git
 ```
 
 ### Install dependencies
@@ -101,9 +101,9 @@ I enjoy building interfaces and continuously improving my coding and design skil
 
 ## 📬 Contact
 
-- GitHub: https://github.com/<your-username>
-- Email: <your-email>
-- Portfolio (Live): <your-live-link>
+- GitHub: https://github.com/RenaldKS
+- Email: renaldikaryas@gmail.com
+- Portfolio (Live): Coming Soon !
 
 ---
 
