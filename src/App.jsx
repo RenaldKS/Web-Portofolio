@@ -5,11 +5,12 @@ import Footer from "../src/component/Footer";
 import Portofolio from "../src/pages/Portofolio";
 import TaskManager from "../src/pages/taskManager";
 import PortoDetails from "../src/pages/PortoDetails";
+import AboutMe from "./pages/About_Me";
 
 function App() {
   return (
     <>
-      <div className="min-h-screen flex flex-col bg-[#0A0A0A]">
+      <div className="min-h-screen flex flex-col bg-[#0A0A0A] bg-[url('./assets/img/bg3.svg')] bg-cover bg-center">
         <Header />
         <main className="flex-1 flex flex-col">
           <Routes>
@@ -17,6 +18,7 @@ function App() {
             <Route path="/portofolio" element={<Portofolio />} />
             <Route path="/taskmanager" element={<TaskManager />} />
             <Route path="/projects/:id" element={<PortoDetails />} />
+            <Route path="/aboutme" element={<AboutMe />} />
           </Routes>
         </main>
         <Footer />

@@ -1,10 +1,11 @@
 import githubicn from "../assets/img/25231.png";
 import linkedicn from "../assets/img/linked.png";
 import profileimg from "../assets/img/ME12.jpeg";
+import steamicn from "../assets/img/steam.png";
 
 const Front_Body = () => {
   return (
-    <section className="animate-fade-in flex-1 flex items-center bg-[#0A0A0A] text-white px-6 lg:px-24 py-12 md:py-20">
+    <section className="animate-fade-in flex-1 flex items-center text-white px-6 lg:px-24 py-12 md:py-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* KOLOM KIRI: Teks & Button */}
         <div className="flex-1 space-y-4">
@@ -42,7 +43,6 @@ const Front_Body = () => {
           </div>
         </div>
 
-        {/* GARIS PEMBATAS VERTIKAL */}
         <div className="hidden md:block w-px h-80 bg-gradient-to-b from-transparent via-[#e29e6d]/50 to-transparent mx-4"></div>
 
         {/* KOLOM KANAN: Foto & Sosmed */}
@@ -56,7 +56,6 @@ const Front_Body = () => {
             />
           </div>
 
-          {/* Social Media menggunakan Heroicons */}
           <div className="text-center md:text-left w-full md:pl-12">
             <p className="font-bold mb-4 text-lg text-gray-300">Find me :</p>
             <div className="flex justify-center md:justify-start gap-6">
@@ -71,6 +70,12 @@ const Front_Body = () => {
                 className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors"
               >
                 <img src={githubicn} className="h-7 w-7" />
+              </a>
+              <a
+                href="https://steamcommunity.com/id/Zeyrex/"
+                className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors"
+              >
+                <img src={steamicn} className="h-7 w-7" />
               </a>
             </div>
           </div>
