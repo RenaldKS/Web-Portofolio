@@ -5,7 +5,7 @@ import PhotoGallery from "../component/ProjectGallery";
 const Portofolio = () => {
   const navigate = useNavigate();
 
-  const showcaseImages = projects.flatMap((project) => project.images);
+  const allImages = projects.flatMap((p) => p.images);
 
   return (
     <section className="animate-fade-in flex-1 flex items-center  text-white px-6 lg:px-24 py-12 md:py-20">
@@ -19,7 +19,7 @@ const Portofolio = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              onClick={() => navigate(`/projects/${project.id}`)}
+              onClick={() => navigate(`/myprojects/${project.id}`)}
               className="cursor-pointer w-full border border-gray-700 rounded-xl p-6 bg-black hover:border-orange-400 transition duration-300"
             >
               <div className="flex gap-6 items-start">
@@ -54,7 +54,7 @@ const Portofolio = () => {
         {/* RIGHT SIDE - REUSABLE SLIDESHOW */}
         <div className="hidden md:block w-px bg-gradient-to-b from-transparent via-[#e29e6d]/50 to-transparent"></div>
         <div className="hidden md:block sticky top-65 self-start">
-          <PhotoGallery images={showcaseImages} />
+          <PhotoGallery images={allImages} mode="slideshow" />
         </div>
       </div>
     </section>

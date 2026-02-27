@@ -14,7 +14,6 @@ const PortoDetails = () => {
       </div>
     );
   }
-  const showcaseImages = projects.flatMap((project) => project.images);
 
   return (
     <section className="animate-fade-in flex-1 flex items-center  text-white px-6 lg:px-24 py-12 md:py-20">
@@ -55,9 +54,13 @@ const PortoDetails = () => {
         </div>
 
         {/* RIGHT SIDE - REUSABLE SLIDESHOW */}
-        <div className="hidden md:block w-px bg-gradient-to-b from-transparent via-[#e29e6d]/50 to-transparent"></div>
-        <div className="hidden md:block sticky top-65 self-start">
-          <PhotoGallery images={showcaseImages} />
+        <div className="hidden md:block w-px bg-gradient-to-b from-transparent via-[#e29e6d]/50 to-transparent pointer-events-none"></div>
+        <div className="hidden md:block sticky top-65 self-start z-10">
+          <PhotoGallery
+            images={project.images}
+            mode="static"
+            autoSlide={false}
+          />
         </div>
       </div>
     </section>

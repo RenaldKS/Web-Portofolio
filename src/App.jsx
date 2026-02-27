@@ -15,9 +15,9 @@ function App() {
         <main className="flex-1 flex flex-col">
           <Routes>
             <Route path="/" element={<Front_Body />} />
-            <Route path="/portofolio" element={<Portofolio />} />
+            <Route path="/myprojects" element={<Portofolio />} />
             <Route path="/taskmanager" element={<TaskManager />} />
-            <Route path="/projects/:id" element={<PortoDetails />} />
+            <Route path="/myprojects/:id" element={<PortoDetails />} />
             <Route path="/aboutme" element={<AboutMe />} />
           </Routes>
         </main>

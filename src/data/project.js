@@ -1,3 +1,13 @@
+import ss1 from "../assets/img/Picture1.jpg"
+import ss2 from "../assets/img/Picture2.jpg"
+import ss3 from "../assets/img/Picture3.jpg"
+import rzn1 from "../assets/img/rzn1.png"
+import rzn2 from "../assets/img/rzn2.png"
+import rzn3 from "../assets/img/rzn3.png"
+import web1 from "../assets/img/web1.png"
+import web2 from "../assets/img/web2.png"
+import web3 from "../assets/img/web3.png"
+
 const projects = [
   {
     id: "web-porto",
@@ -11,9 +21,9 @@ const projects = [
         "Vite"
     ],
     images: [
-      "https://picsum.photos/400/700?4",
-      "https://picsum.photos/400/700?5",
-      "https://picsum.photos/400/700?6",
+     web1,
+     web2,
+     web3
     ],
   },
   {
@@ -32,9 +42,9 @@ const projects = [
         "GadgetBridge"
     ],
     images: [
-      "https://picsum.photos/400/700?1",
-      "https://picsum.photos/400/700?2",
-      "https://picsum.photos/400/700?3",
+      ss1,
+      ss2,
+      ss3,
     ],
   },
   {
@@ -49,9 +59,9 @@ const projects = [
         "Vite"
     ],
     images: [
-      "https://picsum.photos/400/700?4",
-      "https://picsum.photos/400/700?5",
-      "https://picsum.photos/400/700?6",
+      rzn1,
+      rzn2,
+      rzn3
     ],
   },
   ];
