@@ -18,7 +18,7 @@ const Front_Body = () => {
             <p className="text-[#e29e6d] font-medium text-lg italic">
               Informatic Engineering Fresh Graduate
             </p>
-            {/* Dekorasi menggunakan Heroicons */}
+
             <div className="flex items-center gap-2 text-gray-500">
               <span>🦆_________</span>
             </div>
@@ -34,12 +34,19 @@ const Front_Body = () => {
           </p>
 
           <div className="flex gap-4 pt-4">
-            <button className="px-8 py-3 bg-[#e29e6d] text-black font-bold rounded shadow-lg hover:bg-[#d18d5c] transition-all transform hover:-translate-y-1">
+            <a
+              href="/CV_Renaldi Karya Surbakti_2025"
+              download="CV_Renaldi_Karya_Surbakti.pdf"
+              className="px-8 py-3 bg-[#e29e6d] text-black font-bold rounded shadow-lg hover:bg-[#d18d5c] transition-all transform hover:-translate-y-1 inline-block text-center"
+            >
               Get my CV
-            </button>
-            <button className="px-8 py-3 bg-white text-black font-bold rounded shadow-lg hover:bg-gray-200 transition-all transform hover:-translate-y-1">
+            </a>
+            <a
+              href="/aboutme"
+              className="px-8 py-3 bg-white text-black font-bold rounded shadow-lg hover:bg-gray-200 transition-all transform hover:-translate-y-1"
+            >
               More
-            </button>
+            </a>
           </div>
         </div>
 
@@ -59,23 +66,34 @@ const Front_Body = () => {
           <div className="text-center md:text-left w-full md:pl-12">
             <p className="font-bold mb-4 text-lg text-gray-300">Find me :</p>
             <div className="flex justify-center md:justify-start gap-6">
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/renaldi-karya-surbakti/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors"
               >
                 <img src={linkedicn} alt="LinkedIn" className="h-7 w-7" />
               </a>
+
+              {/* GitHub */}
               <a
                 href="https://github.com/RenaldKS"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors"
               >
-                <img src={githubicn} className="h-7 w-7" />
+                <img src={githubicn} alt="GitHub" className="h-7 w-7" />
               </a>
+
+              {/* Steam */}
               <a
                 href="https://steamcommunity.com/id/Zeyrex/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors"
               >
-                <img src={steamicn} className="h-7 w-7" />
+                <img src={steamicn} alt="Steam" className="h-7 w-7" />
               </a>
             </div>
           </div>
