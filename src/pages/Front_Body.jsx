@@ -39,7 +39,7 @@ const Front_Body = () => {
 
           <div className="flex gap-4 pt-4">
             <a
-              href="/CV_Renaldi Karya Surbakti_2025"
+              href="/CV_Renaldi_Karya_Surbakti_2026.pdf"
               download="CV_Renaldi_Karya_Surbakti.pdf"
               className="px-8 py-3 bg-[#e29e6d] text-black font-bold rounded shadow-lg hover:bg-[#d18d5c] transition-all transform hover:-translate-y-1 inline-block text-center"
             >
