@@ -15,6 +15,10 @@ const Front_Body = () => {
 
           <div className="space-y-1">
             <h2 className="text-2xl font-semibold">It's Me, Renaldi</h2>
+            <p className="text-white font-medium text-sm italic">
+              renaldikaryas@gmail.com
+            </p>
+
             <p className="text-[#e29e6d] font-medium text-lg italic">
               Informatic Engineering Fresh Graduate
             </p>
