@@ -12,13 +12,17 @@ const projects = [
   {
     id: "web-porto",
     title: "Web Portofolio",
+    link: "https://github.com/RenaldKS/Web-Portofolio",
     description:
       "A responsive personal portfolio showcasing projects, skills, and contact info, built with React and Tailwind.",
-    summary:"",
+    summary:"This is my personal portfolio website where I showcase projects that I have built while learning web development. The goal of this project is to practice building a clean UI, reusable components, and a structured frontend application using modern tools.",
     technology:[
         "React", 
         "Tailwind", 
-        "Vite"
+        "Vite",
+        "Nginx",
+        "Node.js"
+
     ],
     images: [
      web1,
@@ -29,6 +33,7 @@ const projects = [
   {
     id: "smartschiz",
     title: "SmartSchiz",
+    link: "https://github.com/RenaldKS/SmartSchiz",
     description:
       "Mobile app that monitors mental health patterns and provides analytics.",
     summary:"This Android application is designed to monitor users' heart rate and stress levels in real-time, triggering alarms when abnormal values are detected. It integrates with Firestore for secure data storage and user connectivity, allowing users to send and accept connection requests via email. Connected users can view each other’s alarm data, including heart rate, stress levels, timestamps, and location links.",
@@ -50,13 +55,16 @@ const projects = [
   {
     id: "razuna",
     title: "Razuna Alliance",
+    link: "https://github.com/RenaldKS/Razuna-Alliace",
     description:
-      "Simple Crud Website for Academic Purposes.",
-    summary:"",
+      "Simple Crud Website for Academic Purposes",
+    summary:"Simple Crud Website for Academic Purposes that intergrates with CI4 as the Framework, Materlliaze as the CSS and PhpmyAdmin as the Database",
     technology:[
-        "React", 
-        "Tailwind", 
-        "Vite"
+        "CodeIgniter 4", 
+        "Materlliaze ", 
+        "PhpMyAdmin",
+        "SQL",
+        "Javascript"
     ],
     images: [
       rzn1,

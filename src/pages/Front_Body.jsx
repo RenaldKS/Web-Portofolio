@@ -6,7 +6,7 @@ import steamicn from "../assets/img/steam.png";
 const Front_Body = () => {
   return (
     <section className="animate-fade-in flex-1 flex items-center text-white px-6 lg:px-24 py-12 md:py-20">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 bg-[#33333] rounded border pr-2 pb-2 border-[#5c3d2e] px-2 py-2 ">
         {/* KOLOM KIRI: Teks & Button */}
         <div className="flex-1 space-y-4">
           <h1 className="text-4xl md:text-4xl font-bold text-[#e29e6d]">
@@ -53,7 +53,7 @@ const Front_Body = () => {
         <div className="hidden md:block w-px h-80 bg-gradient-to-b from-transparent via-[#e29e6d]/50 to-transparent mx-4"></div>
 
         {/* KOLOM KANAN: Foto & Sosmed */}
-        <div className="flex-1 flex flex-col items-center gap-8">
+        <div className="flex-1 flex flex-col items-center gap-8 py-3">
           {/* Container Foto */}
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#e29e6d] shadow-[0_0_50px_rgba(226,158,109,0.2)]">
             <img
@@ -71,7 +71,7 @@ const Front_Body = () => {
                 href="https://www.linkedin.com/in/renaldi-karya-surbakti/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors"
+                className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors transition-all transform hover:-translate-y-1 inline-block"
               >
                 <img src={linkedicn} alt="LinkedIn" className="h-7 w-7" />
               </a>
@@ -81,7 +81,7 @@ const Front_Body = () => {
                 href="https://github.com/RenaldKS"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors"
+                className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors transition-all transform hover:-translate-y-1 inline-block"
               >
                 <img src={githubicn} alt="GitHub" className="h-7 w-7" />
               </a>
@@ -91,7 +91,7 @@ const Front_Body = () => {
                 href="https://steamcommunity.com/id/Zeyrex/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors"
+                className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors transition-all transform hover:-translate-y-1 inline-block"
               >
                 <img src={steamicn} alt="Steam" className="h-7 w-7" />
               </a>

@@ -1,6 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import projects from "../data/project";
 import PhotoGallery from "../component/ProjectGallery";
+import ghIcn from "../assets/img/25231.png";
 
 const PortoDetails = () => {
   const { id } = useParams();
@@ -43,10 +44,18 @@ const PortoDetails = () => {
                 </span>
               ))}
             </div>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 bg-gray-800 rounded-lg hover:bg-[#e29e6d] hover:text-black transition-colors transition-all transform hover:-translate-y-1 inline-block"
+            >
+              <img src={ghIcn} alt="GitHub" className="h-7 w-7" />
+            </a>
             <div className="hidden md:block w-full h-px bg-gradient-to-r from-transparent via-[#e29e6d]/50 to-transparent"></div>
             <button
               onClick={() => navigate(-1)}
-              className="bg-gray-200 text-black px-4 py-2 mt-6 rounded-md hover:bg-white transition"
+              className="bg-gray-200 text-black px-4 py-2 mt-6 rounded-md hover:bg-white transition font-semibold transition-all transform hover:-translate-y-1 inline-block"
             >
               ← Back
             </button>
