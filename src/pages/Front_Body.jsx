@@ -24,7 +24,7 @@ const Front_Body = () => {
             </p>
 
             <div className="flex items-center gap-2 text-gray-500">
-              <span>🦆_________</span>
+              <span>🦆________</span>
             </div>
           </div>
 
