@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && scp -r dist/* zeyrex@141.11.25.206:/home/zeyrex/portofolio/ && ssh zeyrex@141.11.25.206 \"sudo rm -rf /var/www/portofolio/* && sudo cp -r ~/portofolio/* /var/www/portofolio/ && sudo systemctl reload nginx\""
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",

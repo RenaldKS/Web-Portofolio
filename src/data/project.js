@@ -7,6 +7,9 @@ import rzn3 from "../assets/img/rzn3.png"
 import web1 from "../assets/img/web1.png"
 import web2 from "../assets/img/web2.png"
 import web3 from "../assets/img/web3.png"
+import fl1  from "../assets/img/SS1.png"
+import fl2  from "../assets/img/SS2.png"
+import fl3  from "../assets/img/SS3.png"
 
 const projects = [
   {
@@ -70,6 +73,26 @@ const projects = [
       rzn1,
       rzn2,
       rzn3
+    ],
+  },
+  {
+    id: "filmlistapp",
+    title: "Film List App",
+    link: "https://renaldks-filmlist.web.id" ,
+    description:
+      "An app to list your favorite movie.",
+    summary:"A web-based movie discovery application built with Laravel 5.8 and deployed on a Linux VPS (Ubuntu). The project features real-time movie data fetching via OMDb API and a personalized Favorites system for registered users. The repo is hidden because of agreement with the task provider.",
+    technology:[
+        "PHP 7.4", 
+        "MMySQL ", 
+        "Nginx",
+        "SSL",
+        "Git"
+    ],
+    images: [
+      fl1,
+      fl2,
+      fl3
     ],
   },
   ];
