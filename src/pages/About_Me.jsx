@@ -29,7 +29,6 @@ const AboutMe = () => {
             </div>
           </div>
 
-          {/* GAMES CARD */}
           <div className="flex-1">
             <div className="w-full p-6 bg-[#33333] border border-[#5c3d2e] rounded shadow-xs">
               <h5 className="text-xl font-semibold mb-4">

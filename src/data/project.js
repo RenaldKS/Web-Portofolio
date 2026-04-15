@@ -10,6 +10,9 @@ import web3 from "../assets/img/web3.png"
 import fl1  from "../assets/img/SS1.png"
 import fl2  from "../assets/img/SS2.png"
 import fl3  from "../assets/img/SS3.png"
+import SH1 from "../assets/img/SH1.png"
+import SH2 from "../assets/img/SH2.png"
+import SH3 from "../assets/img/SH3.png"
 
 const projects = [
   {
@@ -84,7 +87,7 @@ const projects = [
     summary:"A web-based movie discovery application built with Laravel 5.8 and deployed on a Linux VPS (Ubuntu). The project features real-time movie data fetching via OMDb API and a personalized Favorites system for registered users. The repo is hidden because of agreement with the task provider.",
     technology:[
         "PHP 7.4", 
-        "MMySQL ", 
+        "MySQL ", 
         "Nginx",
         "SSL",
         "Git"
@@ -93,6 +96,26 @@ const projects = [
       fl1,
       fl2,
       fl3
+    ],
+  },
+  {
+    id: "SenangHati",
+    title: "Kontrakan Senang Hati Landing Page",
+    link: "https://senanghati.my.id" ,
+    description:
+      "A web page designed to showcase housing properties",
+    summary:"Personally designed landing page for real estate properties showcase using Next.Js for the framework and VPS with Ubuntu for the server hostings intergrated with Nginx, SSL and Git",
+    technology:[
+        "Next.js", 
+        "VPS", 
+        "Nginx",
+        "SSL",
+        "Git"
+    ],
+    images: [
+      SH1,
+      SH2,
+      SH3
     ],
   },
   ];
